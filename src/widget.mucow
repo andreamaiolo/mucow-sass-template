@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HTMLWidget name="Widget Name" formatNumber="6" localization="none">
+  <headHTML>
+    <![CDATA[
+      <style>
+        @@include('widget.css')
+      </style>
+    ]]>
+  </headHTML>
+  <pageItemHTML>
+    <![CDATA[
+      @@include('widget.html')
+    ]]>
+  </pageItemHTML>
+  <bodyEndHTML>
+    <![CDATA[
+      <script>
+        @@include('widget.js')
+      </script>
+    ]]>
+  </bodyEndHTML>
+</HTMLWidget>

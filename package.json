@@ -1,0 +1,36 @@
+{
+  "name": "mucow-sass-template",
+  "version": "1.0.0",
+  "description": "MuCow template with sass support.",
+  "keywords": [
+    "mucow",
+    "adobe",
+    "muse",
+    "widget"
+  ],
+  "homepage": "https://github.com/andreamaiolo/mucow-sass-template",
+  "bugs": {
+    "url": "https://github.com/andreamaiolo/mucow-sass-template/issues"
+  },
+  "license": "ISC",
+  "private": true,
+  "author": "Andrea Maiolo <andrea.maiolo@hotmail.it> (https://github.com/andreamaiolo)",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreamaiolo/mucow-sass-template.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}
